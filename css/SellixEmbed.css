@@ -1,0 +1,53 @@
+.sellix-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+  
+.sellix-backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+  
+.sellix-iframe-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.sellix-iframe-content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+  
+.sellix-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+  
+.sellix-iframe-loader-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+.sellix-iframe-loader {
+    width: 35px;
+}
